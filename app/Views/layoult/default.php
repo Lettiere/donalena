@@ -13,16 +13,20 @@
     <meta name="description" content="">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/vendor.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/vendor.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style.css') ?>">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+
     <?= $this->renderSection('css') ?>
 
 </head>
@@ -323,10 +327,10 @@
             </symbol>
         </defs>
     </svg>
-    <div class="preloader-wrapper">
+    <!--  <div class="preloader-wrapper">
         <div class="preloader">
         </div>
-    </div>
+    </div> -->
     <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart">
         <div class="offcanvas-header justify-content-center">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -380,7 +384,7 @@
 
             <ul class="navbar-nav justify-content-end menu-list list-unstyled d-flex gap-md-3 mb-0">
                 <li class="nav-item border-dashed active">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#fruits"></use>
                         </svg>
@@ -388,7 +392,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#dairy"></use>
                         </svg>
@@ -396,7 +400,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#meat"></use>
                         </svg>
@@ -404,7 +408,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#seafood"></use>
                         </svg>
@@ -412,7 +416,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#bakery"></use>
                         </svg>
@@ -420,7 +424,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#canned"></use>
                         </svg>
@@ -428,7 +432,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#frozen"></use>
                         </svg>
@@ -436,7 +440,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#pasta"></use>
                         </svg>
@@ -444,7 +448,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#breakfast"></use>
                         </svg>
@@ -452,7 +456,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#snacks"></use>
                         </svg>
@@ -472,15 +476,15 @@
                     </button>
                     <div class="collapse" id="beverages-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal ps-5 pb-1">
-                            <li class="border-bottom py-2"><a href="index.html" class="dropdown-item">Water</a></li>
-                            <li class="border-bottom py-2"><a href="index.html" class="dropdown-item">Juice</a></li>
-                            <li class="border-bottom py-2"><a href="index.html" class="dropdown-item">Soda</a></li>
-                            <li class="border-bottom py-2"><a href="index.html" class="dropdown-item">Tea</a></li>
+                            <li class="border-bottom py-2"><a href="" class="dropdown-item">Water</a></li>
+                            <li class="border-bottom py-2"><a href="" class="dropdown-item">Juice</a></li>
+                            <li class="border-bottom py-2"><a href="" class="dropdown-item">Soda</a></li>
+                            <li class="border-bottom py-2"><a href="" class="dropdown-item">Tea</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#spices"></use>
                         </svg>
@@ -488,7 +492,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#baby"></use>
                         </svg>
@@ -496,7 +500,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#health"></use>
                         </svg>
@@ -504,7 +508,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#household"></use>
                         </svg>
@@ -512,7 +516,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#personal"></use>
                         </svg>
@@ -520,7 +524,7 @@
                     </a>
                 </li>
                 <li class="nav-item border-dashed">
-                    <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
+                    <a href="" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <use xlink:href="#pet"></use>
                         </svg>
@@ -533,16 +537,123 @@
 
     </div>
 
-    <?= $this->include('/partials/navBar') ?>
-    <?= $this->renderSection('content') ?>
+    <header>
+        <div class="container-fluid">
+            <div class="row py-3 border-bottom">
 
-    < <footer class="py-5">
+                <div
+                    class="col-sm-4 col-lg-2 text-center text-sm-start d-flex gap-3 justify-content-center justify-content-md-start">
+                    <div class="d-flex align-items-center my-3 my-sm-0">
+                        <a href="<?= base_url('') ?>">
+                            <img src="<?= base_url('assets/images/logo.svg') ?>" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <use xlink:href="<?= base_url('assets/svg/menu.svg') ?>"></use>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="col-sm-6 offset-sm-2 offset-md-0 col-lg-4">
+                    <div class="search-bar row bg-light p-2 rounded-4">
+                        <div class="col-md-4 d-none d-md-block">
+                            <select class="form-select border-0 bg-transparent">
+                                <option>Todas as Categorias</option>
+                                <option>Alimentos</option>
+                                <option>Bebidas</option>
+                                <option>Chocolates</option>
+                            </select>
+                        </div>
+                        <div class="col-11 col-md-7">
+                            <form id="search-form" class="text-center" action="<?= base_url('') ?>" method="post">
+                                <input type="text" class="form-control border-0 bg-transparent"
+                                    placeholder="Procure por mais de 20.000 produtos">
+                            </form>
+                        </div>
+                        <div class="col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <ul
+                        class="navbar-nav list-unstyled d-flex flex-row gap-3 gap-lg-5 justify-content-center flex-wrap align-items-center mb-0 fw-bold text-uppercase text-dark">
+                        <li class="nav-item active">
+                            <a href="<?= base_url('') ?>" class="nav-link">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle pe-3" role="button" id="pages" data-bs-toggle="dropdown"
+                                aria-expanded="false">Páginas</a>
+                            <ul class="dropdown-menu border-0 p-3 rounded-0 shadow" aria-labelledby="pages">
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Sobre Nós</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Loja</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Produto Individual</a>
+                                </li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Carrinho</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Finalizar Compra</a>
+                                </li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Blog</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Post Individual</a>
+                                </li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Estilos</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Contato</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Obrigado</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Minha Conta</a></li>
+                                <li><a href="<?= base_url('') ?>" class="dropdown-item">Erro 404</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div
+                    class="col-sm-8 col-lg-2 d-flex gap-5 align-items-center justify-content-center justify-content-sm-end">
+                    <ul class="d-flex justify-content-end list-unstyled m-0">
+                        <li>
+                            <a href="#" class="p-2 mx-1">
+                                <svg width="24" height="24">
+                                    <use xlink:href="<?= base_url('assets/svg/user.svg') ?>"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="p-2 mx-1">
+                                <svg width="24" height="24">
+                                    <use xlink:href="<?= base_url('assets/svg/wishlist.svg') ?>"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="p-2 mx-1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
+                                aria-controls="offcanvasCart">
+                                <svg width="24" height="24">
+                                    <use xlink:href="<?= base_url('assets/svg/shopping-bag.svg') ?>"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <?= $this->renderSection('content') ?>
+    <<footer class="py-5 bg-dark text-light">
         <div class="container-lg">
             <div class="row">
-
+                <!-- Logo e Redes Sociais -->
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer-menu">
-                        <img src="images/logo.svg" width="240" height="70" alt="logo">
+                        <img src="<?= base_url('assets/images/logo.svg') ?>" width="240" height="70" alt="logo">
                         <div class="social-links mt-3">
                             <ul class="d-flex list-unstyled gap-2">
                                 <li>
@@ -581,121 +692,132 @@
                                     </a>
                                 </li>
                             </ul>
+
                         </div>
                     </div>
                 </div>
 
+                <!-- Menus -->
                 <div class="col-md-2 col-sm-6">
                     <div class="footer-menu">
-                        <h5 class="widget-title">Organic</h5>
+                        <h5 class="widget-title text-warning">Sobre Nós</h5>
                         <ul class="menu-list list-unstyled">
                             <li class="menu-item">
-                                <a href="#" class="nav-link">About us</a>
+                                <a href="#" class="nav-link text-light">Sobre nós</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#" class="nav-link">Conditions </a>
+                                <a href="#" class="nav-link text-light">Condições</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#" class="nav-link">Our Journals</a>
+                                <a href="#" class="nav-link text-light">Nossos Diários</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#" class="nav-link">Careers</a>
+                                <a href="#" class="nav-link text-light">Carreiras</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#" class="nav-link">Affiliate Programme</a>
+                                <a href="#" class="nav-link text-light">Programa de Afiliados</a>
                             </li>
                             <li class="menu-item">
-                                <a href="#" class="nav-link">Ultras Press</a>
+                                <a href="#" class="nav-link text-light">Ultras Press</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6">
-                    <div class="footer-menu">
-                        <h5 class="widget-title">Quick Links</h5>
-                        <ul class="menu-list list-unstyled">
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Offers</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Discount Coupons</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Stores</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Track Order</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Shop</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Info</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6">
-                    <div class="footer-menu">
-                        <h5 class="widget-title">Customer Service</h5>
-                        <ul class="menu-list list-unstyled">
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">FAQ</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Contact</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Privacy Policy</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Returns & Refunds</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Cookie Guidelines</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#" class="nav-link">Delivery Information</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer-menu">
-                        <h5 class="widget-title">Subscribe Us</h5>
-                        <p>Subscribe to our newsletter to get updates about our grand offers.</p>
-                        <form class="d-flex mt-3 gap-0" action="index.html">
-                            <input class="form-control rounded-start rounded-0 bg-light" type="email"
-                                placeholder="Email Address" aria-label="Email Address">
-                            <button class="btn btn-dark rounded-end rounded-0" type="submit">Subscribe</button>
-                        </form>
                     </div>
                 </div>
 
-            </div>
-        </div>
-        </footer>
-        <div id="footer-bottom">
-            <div class="container-lg">
-                <div class="row">
-                    <div class="col-md-6 copyright">
-                        <p>© 2024 Organic. All rights reserved.</p>
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-menu">
+                        <h5 class="widget-title text-warning">Links Rápidos</h5>
+                        <ul class="menu-list list-unstyled">
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Ofertas</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Cupons de Desconto</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Lojas</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Rastrear Pedido</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Loja</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Informações</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-6 credit-link text-start text-md-end">
-                        <p>HTML Template by <a href="https://templatesjungle.com/">TemplatesJungle</a> Distributed By <a
-                                href="https://themewagon.com">ThemeWagon</a> </p>
+                </div>
+
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-menu">
+                        <h5 class="widget-title text-warning">Atendimento ao Cliente</h5>
+                        <ul class="menu-list list-unstyled">
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">FAQ</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Contato</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Política de Privacidade</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Devoluções & Reembolsos</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Diretrizes de Cookies</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="nav-link text-light">Informações de Entrega</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Inscrição -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-menu">
+                        <h5 class="widget-title text-warning">Assine Nossa Newsletter</h5>
+                        <p>Assine nossa newsletter para receber atualizações sobre nossas grandes ofertas.</p>
+                        <form class="d-flex mt-3 gap-0" action="">
+                            <input class="form-control rounded-start rounded-0 bg-light" type="email"
+                                placeholder="Endereço de Email" aria-label="Email Address">
+                            <button class="btn btn-warning rounded-end rounded-0" type="submit">Assinar</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="js/jquery-1.11.0.min.js"></script>
+        </footer>
+
+        <div id="footer-bottom" class="bg-dark text-light py-3">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>© 2024 Organic. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6 credit-link text-start text-md-end">
+                        <p>Distribuído por <a href="https://akashi.app.br/" class="text-warning">Akashi Soluções
+                                Digitais</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/jquery-1.11.0.min.js"></script>
+
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
         </script>
-        <script src="js/plugins.js"></script>
-        <script src="js/script.js"></script>
-        <?= $this->renderSection('js') ?>
+        <script src="<?= base_url('assets/js/plugins.js') ?>"></script>
+        <script src="<?= base_url('assets/js/script.js') ?>"></script>
+
+</body>
+
+<?= $this->renderSection('js') ?>
 </body>
 
 </html>
